@@ -4,3 +4,15 @@
 /app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/
 /app/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes/
 /build/
+
+# Firebase
+  google-services.json
+  app/google-services.json
+
+  # Android
+  local.properties
+  *.iml
+  .gradle/
+  build/
+  app/build/
+
