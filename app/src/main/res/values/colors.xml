@@ -1,0 +1,10 @@
+<resources>
+    <color name="therian_background">#101510</color>
+    <color name="therian_card">#1A2319</color>
+    <color name="therian_accent">#86C06A</color>
+    <color name="therian_text_primary">#F4F6EF</color>
+    <color name="therian_text_secondary">#B9C3B6</color>
+    <color name="therian_border">#2B3729</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
