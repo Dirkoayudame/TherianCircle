@@ -1,26 +1,31 @@
-# Therian Circle - Android Java
+¡• Therian Circle es una app Android (Java + XML) tipo red social para comunidad therian.
 
-Proyecto nativo Android Studio con Java.
+  Qué hace hoy:
 
-## Stack
-- Android Views + XML
-- Java
-- Material Components
-- BottomNavigation + Fragments
+  - Registro e inicio de sesión con Firebase Auth.
+  - Navegación por 5 secciones: Feed, Grupos, Eventos, Chat y Perfil.
+  - Feed social:
+      - crear publicaciones,
+      - dar/quitar like,
+      - comentar.
+  - Grupos:
+      - unirte y salir.
+  - Eventos:
+      - confirmar asistencia (RSVP) y cancelar.
+  - Chat:
+      - envío de mensajes,
+      - actualización periódica tipo “casi tiempo real”.
+  - Notificaciones locales:
+      - avisan mensajes nuevos de otros usuarios.
+  - Perfil:
+      - muestra identidad básica y permite cerrar sesión.
 
-## Abrir y correr
-1. Abre Android Studio.
-2. `File > Open` y elige `StudioProjects/TherianAndroidJava`.
-3. Espera Gradle Sync.
-4. Ejecuta en emulador o celular Android.
+  Base técnica:
 
-## MVP incluido
-- Login local
-- Feed
-- Grupos
-- Eventos
-- Chat
-- Perfil
+  - Arquitectura por capas con repositorio.
+  - Persistencia offline con Room (cache local).
+  - Cache en memoria + local + remoto mock para datos sociales.
+  - UI con RecyclerView y estados de carga/vacío/error.
 
-## Siguiente paso recomendado
-Conectar Supabase por REST (auth, posts, messages).
+  En resumen: ya es un MVP funcional social/chat con sesión, interacciones y persistencia local.
+
